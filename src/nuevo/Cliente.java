@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  * Calse donde el cliente ejecuta el programa
  * se instancia la interfaz servicio a las factorias donde
  * se retorna la clase del producto
- * @author Juan
+ * @author Celso
  * @version 1
  */
 public class Cliente {
