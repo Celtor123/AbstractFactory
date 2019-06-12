@@ -25,10 +25,10 @@ public class Cliente {
             servicio= new FactoriaCla();
             break;
             case 1:
-            servicio=new FactoriaBom();
+            servicio=new FactoriaFlauta();
             break;
             case 2:
-            servicio=new FactoriaFlauta();
+            servicio=new FactoriaBom();
             break;
             case 3:
             servicio=new FactoriaTrom();
@@ -38,12 +38,16 @@ public class Cliente {
             break;
         }
         
-    
+    try{
     Informacion as=servicio.crearServicio();
+    as.instrumento();
     as.familia();
     as.características();
     as.numeroDeUnidades();
     as.precio();
+    }catch(java.lang.NullPointerException t){
+        System.out.println("");
+    }
         
     }
     }

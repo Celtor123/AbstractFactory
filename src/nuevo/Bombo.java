@@ -31,5 +31,10 @@ public class Bombo implements Informacion {
     public void numeroDeUnidades() {
         System.out.println("2");
     }
+
+    @Override
+    public void instrumento() {
+        System.out.println("Bombo");
+    }
     
 }

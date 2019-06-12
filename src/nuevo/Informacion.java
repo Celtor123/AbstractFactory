@@ -10,6 +10,7 @@ package nuevo;
  * @author Juan
  */
 public interface Informacion {
+    public void instrumento();
     public void familia();
     public void precio();
     public void características();

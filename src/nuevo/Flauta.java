@@ -30,5 +30,10 @@ public class Flauta implements Informacion{
     public void numeroDeUnidades() {
         System.out.println("Numero de unidades: 12");
     }
+
+    @Override
+    public void instrumento() {
+        System.out.println("Flauta");
+    }
     
 }

@@ -31,5 +31,10 @@ public class Clarinete implements Informacion {
     public void numeroDeUnidades() {
         System.out.println("El número de unidades es de 12");
     }        
+
+    @Override
+    public void instrumento() {
+        System.out.println("Clarinte");
+    }
     
 }

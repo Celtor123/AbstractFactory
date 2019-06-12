@@ -32,5 +32,10 @@ public class Trompeta implements Informacion {
     public void numeroDeUnidades() {
         System.out.println("Hay 7 unidades");
     }
+
+    @Override
+    public void instrumento() {
+        System.out.println("Trompeta");
+    }
     
 }
